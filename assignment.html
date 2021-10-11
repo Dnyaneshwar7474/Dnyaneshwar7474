@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Test</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <style>
+        .atm_sec {
+            background-color: #cec6c6;
+            padding: 10px 0px;
+        }
+
+        .atn_left_cont h1 {
+            text-align: center;
+            color: #000;
+            margin: 0 auto;
+            font-weight: bold;
+        }
+
+        .atn_left_cont {
+            background: #fff;
+            padding: 15px;
+            box-shadow: 0px 1px 3px 0px #333;
+            border-radius: 4px;
+        }
+
+        .getmonrybtn {
+            width: 100%;
+        }
+        .atn_left_cont label{font-weight: normal; font-size: 14px;}
+        .atn_left_cont input{text-align: right; font-weight: 600;}
+        .atm_right_cont h6{font-weight: 600; font-size: 14px;}
+        .table tr td{border: none !important;}
+        .table tr{border-bottom: 1px solid #928c8c !important;}
+    </style>
+</head>
+
+<body>
+    <!--Start  of the ATM get money contet -->
+    <section class="atm_sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="atn_left_cont">
+                        <h1>Welcome to ATM</h1>
+                        <form>
+                            <div class="form-group">
+                                <label>Enter the amount</label>
+                                <input type="text" value="7386" class="form-control">
+                            </div>
+
+                            <button class="btn btn-lg btn-primary getmonrybtn">Get Money</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="atm_right_cont">
+                        <h6>You will get the following amount</h6>
+                        <table class="table">
+                            <tr>
+                                <td>1 notes of Rs 1</td>
+                                <td>1 notes of Rs 2</td>
+                            </tr>
+                            <tr>
+                                <td>1 notes of Rs 1</td>
+                                <td>1 notes of Rs 10</td>
+                            </tr>
+                            <tr>
+                                <td>1 notes of Rs 1</td>
+                                <td>1 notes of Rs 50</td>
+                            </tr>
+                            <tr>
+                                <td>1 notes of Rs 1</td>
+                                <td>1 notes of Rs 100</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><strong>Total notes dispensed: 12</strong></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of the ATM get money contet -->
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
